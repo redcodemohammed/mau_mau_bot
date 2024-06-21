@@ -13,6 +13,8 @@ else
 	exit 1;
 fi
 
+# Arabic
+compile ar_IQ
 # Deutsch
 compile de_DE
 # Spanish

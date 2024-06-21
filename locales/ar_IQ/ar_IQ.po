@@ -1,0 +1,607 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: uno_bot 1.0\n"
+"Report-Msgid-Bugs-To: uno@jhoeke.de\n"
+"POT-Creation-Date: 2019-08-28 14:21+0800\n"
+"PO-Revision-Date: 2024-06-21 10:34+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_IQ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: actions.py:48
+#, python-brace-format
+msgid ""
+"Waiting time to skip this player has been reduced to {time} seconds.\n"
+"Next player: {name}"
+msgstr ""
+"تم تقليل وقت الانتظار لتخطي هذا اللاعب إلى {time} ثانية.\n"
+"اللاعب التالي: {name}"
+
+#: actions.py:54 actions.py:69
+#, python-brace-format
+msgid "{player} was skipped! "
+msgstr "تم تخطي {player}! "
+
+#: actions.py:64
+#, python-brace-format
+msgid ""
+"{name1} ran out of time and has been removed from the game!\n"
+"Next player: {name2}"
+msgstr ""
+"نفد وقت {name1} وتمت إزالته من اللعبة!\n"
+"اللاعب التالي: {name2}"
+
+#: actions.py:76
+#, python-brace-format
+msgid ""
+"{name} ran out of time and has been removed from the game!\n"
+"The game ended."
+msgstr ""
+"نفد وقت {name} وتمت إزالته من اللعبة!\n"
+"انتهت اللعبة."
+
+#: actions.py:101
+msgid "Please choose a color"
+msgstr "الرجاء اختيار اللون"
+
+#: actions.py:108
+#, python-brace-format
+msgid "{name} won!"
+msgstr "{name} فاز!"
+
+#: actions.py:123 bot.py:119 bot.py:199 bot.py:261 bot.py:340
+msgid "Game ended!"
+msgstr "انتهت اللعبة!"
+
+#: actions.py:141 actions.py:165 actions.py:179
+msgid "There are no more cards in the deck."
+msgstr "لا يوجد المزيد من البطاقات في المجموعة."
+
+#: actions.py:157
+#, python-brace-format
+msgid "Bluff called! Giving 4 cards to {name}"
+msgstr "تم اكتشاف الخدعة! يتم إعطاء 4 بطاقات لـ {name}"
+
+#: actions.py:171
+#, python-brace-format
+msgid "{name1} didn't bluff! Giving 6 cards to {name2}"
+msgstr "{name1} لم يكن يخدع! يتم إعطاء 6 بطاقات لـ {name2}"
+
+#: bot.py:60
+msgid ""
+"Send this command in a group to be notified when a new game is started there."
+msgstr "أرسل هذا الأمر في مجموعة ليتم إعلامك عند بدء لعبة جديدة هناك."
+
+#: bot.py:83
+#, python-brace-format
+msgid "A new game has been started in {title}"
+msgstr "لقد بدأت لعبة جديدة في {title}"
+
+#: bot.py:93
+msgid ""
+"Created a new game! Join the game with /join and start the game with /start"
+msgstr ""
+"تم إنشاء لعبة جديدة! انضم إلى اللعبة باستخدام /join وابدأ اللعبة باستخدام /"
+"start"
+
+#: bot.py:110 bot.py:433 bot.py:461 bot.py:488 bot.py:516
+msgid "There is no running game in this chat."
+msgstr "لا توجد لعبة قيد التشغيل في هذه المحادثة."
+
+#: bot.py:123 bot.py:239
+msgid ""
+"The game is not started yet. Join the game with /join and start the game "
+"with /start"
+msgstr ""
+"اللعبة لم تبدأ بعد انضم إلى اللعبة باستخدام /join وابدأ اللعبة باستخدام /"
+"start"
+
+#: bot.py:129 bot.py:281 bot.py:446 bot.py:473 bot.py:501 bot.py:530
+#, python-brace-format
+msgid "Only the game creator ({name}) and admin can do that."
+msgstr "يمكن فقط لمنشئ اللعبة ({name}) والمسؤول القيام بذلك."
+
+#: bot.py:146
+msgid "The lobby is closed"
+msgstr "تم إغلاق الردهة"
+
+#: bot.py:150 bot.py:232
+msgid "No game is running at the moment. Create a new game with /new"
+msgstr ""
+"لا توجد لعبة قيد التشغيل في الوقت الراهن. قم بإنشاء لعبة جديدة باستخدام /new"
+
+#: bot.py:156
+msgid "You already joined the game. Start the game with /start"
+msgstr "لقد انضممت بالفعل إلى اللعبة. ابدأ اللعبة بـ /start"
+
+#: bot.py:162
+msgid "There are not enough cards left in the deck for new players to join."
+msgstr "لا توجد بطاقات كافية في المجموعة لينضم إليها اللاعبون الجدد."
+
+#: bot.py:168
+msgid "Joined the game"
+msgstr "انضم إلى لعبة"
+
+#: bot.py:181 bot.py:193
+msgid "You are not playing in a game in this group."
+msgstr "أنت لا تلعب في لعبة في هذه المجموعة."
+
+#: bot.py:204 bot.py:274
+#, python-brace-format
+msgid "Okay. Next Player: {name}"
+msgstr "حسنًا. اللاعب التالي: {name}"
+
+#: bot.py:210
+#, python-brace-format
+msgid "{name} left the game before it started."
+msgstr "{name} ترك اللعبة قبل أن تبدأ."
+
+#: bot.py:253
+#, python-brace-format
+msgid "Player {name} is not found in the current game."
+msgstr "لم يتم العثور على اللاعب {name} في اللعبة الحالية."
+
+#: bot.py:260 bot.py:265
+#, python-brace-format
+msgid "{0} was kicked by {1}"
+msgstr "تم طرد {0} بواسطة {1}"
+
+#: bot.py:269
+msgid "Please reply to the person you want to kick and type /kick again."
+msgstr "يرجى الرد على الشخص الذي تريد طرده واكتب /kick مرة أخرى."
+
+#: bot.py:299
+msgid "Game not found."
+msgstr "اللعبة غير موجودة."
+
+#: bot.py:304
+msgid "Back to last group"
+msgstr "العودة إلى المجموعة الأخيرة"
+
+#: bot.py:307
+msgid "Please switch to the group you selected!"
+msgstr "يرجى التبديل إلى المجموعة التي حددتها!"
+
+#: bot.py:313
+#, python-brace-format
+msgid ""
+"Selected group: {group}\n"
+"<b>Make sure that you switch to the correct group!</b>"
+msgstr ""
+"المجموعة المختارة: {group}\n"
+"<b>تأكد من التبديل إلى المجموعة الصحيحة!</b>"
+
+#: bot.py:343
+#, python-brace-format
+msgid "Removing {name} from the game"
+msgstr "إزالة {name} من اللعبة"
+
+#: bot.py:360
+msgid "There is no game running in this chat. Create a new one with /new"
+msgstr ""
+"لا توجد لعبة قيد التشغيل في هذه الدردشة. قم بإنشاء واحدة جديدة باستخدام /new"
+
+#: bot.py:365
+msgid "The game has already started"
+msgstr "لقد بدأت اللعبة بالفعل"
+
+#: bot.py:369
+#, python-brace-format
+msgid ""
+"At least {minplayers} players must /join the game before you can start it"
+msgstr ""
+"يجب على الأقل {minplayers} لاعبين أن ينضموا باستخدام /join إلى اللعبة قبل أن "
+"تتمكن من بدءها باستخدام /start"
+
+#: bot.py:380
+#, python-brace-format
+msgid ""
+"First player: {name}\n"
+"Use /close to stop people from joining the game.\n"
+"Enable multi-translations with /enable_translations"
+msgstr ""
+"اللاعب الأول: {name}\n"
+"استخدم /close لإيقاف الأشخاص عن الانضمام إلى اللعبة.\n"
+"قم بتمكين الترجمات المتعددة باستخدام /enable_translations"
+
+#: bot.py:417
+msgid "Please select the group you want to play in."
+msgstr "الرجاء تحديد المجموعة التي تريد اللعب فيها."
+
+#: bot.py:440
+msgid "Closed the lobby. No more players can join this game."
+msgstr "أغلقت الردهة. لا يمكن لمزيد من اللاعبين الانضمام إلى هذه اللعبة."
+
+#: bot.py:468
+msgid "Opened the lobby. New players may /join the game."
+msgstr "تم فتح الردهة. يمكن لللاعبين الجدد الانضمام إلى اللعبة باستخدام /join."
+
+#: bot.py:495
+msgid "Enabled multi-translations. Disable with /disable_translations"
+msgstr ""
+"تم تمكين الترجمات المتعددة. يمكنك تعطيلها باستخدام /disable_translations"
+
+#: bot.py:523
+msgid ""
+"Disabled multi-translations. Enable them again with /enable_translations"
+msgstr ""
+"تم تعطيل الترجمات المتعددة. يمكنك تمكينها مرة أخرى باستخدام /"
+"enable_translations"
+
+#: bot.py:546
+msgid "You are not playing in a game in this chat."
+msgstr "أنت لا تلعب في لعبة في هذه المحادثة."
+
+#: bot.py:561
+#, python-brace-format
+msgid "Please wait {time} second"
+msgid_plural "Please wait {time} seconds"
+msgstr[0] "انتظر لمدة {time} ثانية"
+msgstr[1] "انتظر لمدة {time} ثانية"
+msgstr[2] "انتظر لمدة {time} ثانية"
+msgstr[3] "انتظر لمدة {time} ثانية"
+msgstr[4] "انتظر لمدة {time} ثانية"
+msgstr[5] "انتظر لمدة {time} ثانية"
+
+#: bot.py:637
+#, python-brace-format
+msgid "Current game: {game}"
+msgstr "اللعبة الحالية: {game}\\"
+
+#: bot.py:672
+#, python-brace-format
+msgid "Gamemode changed to {mode}"
+msgstr "تم تغيير وضع اللعب إلى {mode}"
+
+#: bot.py:678
+#, python-brace-format
+msgid "Cheat attempt by {name}"
+msgstr "محاولة غش بواسطة {name}"
+
+#: bot.py:697
+#, python-brace-format
+msgid "Next player: {name}"
+msgstr "اللاعب التالي: {name}"
+
+#: bot.py:709
+#, python-brace-format
+msgid "Waiting time for {name} has been reset to {time} seconds"
+msgstr "تمت إعادة تعيين وقت الانتظار لـ {name} إلى {time} ثانية"
+
+#: results.py:39
+msgid "Choose Color"
+msgstr "اختر لونا"
+
+#: results.py:53
+msgid "Card (tap for game state):"
+msgid_plural "Cards (tap for game state):"
+msgstr[0] "بطاقة (اضغط لحالة اللعبة):"
+msgstr[1] "بطاقة (اضغط لحالة اللعبة):"
+msgstr[2] "بطاقة (اضغط لحالة اللعبة):"
+msgstr[3] "بطاقة (اضغط لحالة اللعبة):"
+msgstr[4] "بطاقة (اضغط لحالة اللعبة):"
+msgstr[5] "بطاقة (اضغط لحالة اللعبة):"
+
+#: results.py:64
+#, python-brace-format
+msgid "{name} ({number} card)"
+msgid_plural "{name} ({number} cards)"
+msgstr[0] "{name} ({number} بطاقة)"
+msgstr[1] "{name} ({number} بطاقة)"
+msgstr[2] "{name} ({number} بطاقة)"
+msgstr[3] "{name} ({number} بطاقة)"
+msgstr[4] "{name} ({number} بطاقة)"
+msgstr[5] "{name} ({number} بطاقة)"
+
+#: results.py:76
+msgid "You are not playing"
+msgstr "أنت لا تلعب"
+
+#: results.py:78
+msgid ""
+"Not playing right now. Use /new to start a game or /join to join the current "
+"game in this group"
+msgstr ""
+"لا تلعب الآن. استخدم /new لبدء لعبة جديدة أو /join للانضمام إلى اللعبة "
+"الحالية في هذه المجموعة"
+
+#: results.py:90
+msgid "The game wasn't started yet"
+msgstr "لم يتم بدء اللعبة بعد"
+
+#: results.py:92
+msgid "Start the game with /start"
+msgstr "ابدأ اللعبة باستخدام /start"
+
+#: results.py:102
+msgid "🎻 Classic mode"
+msgstr "🎻 وضع كلاسيكي"
+
+#: results.py:104
+msgid "Classic 🎻"
+msgstr "🎻 كلاسيكي"
+
+#: results.py:114
+msgid "🚀 Sanic mode"
+msgstr "🚀 الوضع السريع"
+
+#: results.py:116
+msgid "Gotta go fast! 🚀"
+msgstr "لا بدَّ من الإسراع! 🚀"
+
+#: results.py:126
+msgid "🐉 Wild mode"
+msgstr "🐉 وضع برية"
+
+#: results.py:128
+msgid "Into the Wild~ 🐉"
+msgstr "في عالم البرية~ 🐉"
+
+#: results.py:141
+#, python-brace-format
+msgid "Drawing {number} card"
+msgid_plural "Drawing {number} cards"
+msgstr[0] "سحب {number} بطاقة"
+msgstr[1] "سحب {number} بطاقة"
+msgstr[2] "سحب {number} بطاقة"
+msgstr[3] "سحب {number} بطاقات"
+msgstr[4] "سحب {number} بطاقة"
+msgstr[5] "سحب {number} بطاقة"
+
+#: results.py:167
+msgid "Pass"
+msgstr "تخطي"
+
+#: results.py:180
+msgid "I'm calling your bluff!"
+msgstr "أنا أتهمك بالكذب!"
+
+#: results.py:203
+#, python-brace-format
+msgid "Current player: {name}"
+msgstr "اللاعب الحالي: {name}"
+
+#: results.py:206
+#, python-brace-format
+msgid "Last card: {card}"
+msgstr "آخر بطاقة: {card}"
+
+#: results.py:208
+#, python-brace-format
+msgid "Player: {player_list}"
+msgid_plural "Players: {player_list}"
+msgstr[0] "اللاعبون: {player_list}"
+msgstr[1] "اللاعبون: {player_list}"
+msgstr[2] "اللاعبون: {player_list}"
+msgstr[3] "اللاعبون: {player_list}"
+msgstr[4] "اللاعبون: {player_list}"
+msgstr[5] "اللاعبون: {player_list}"
+
+#: settings.py:37
+msgid "Please edit your settings in a private chat with the bot."
+msgstr "يرجى تعديل إعداداتك في محادثة خاصة مع البوت."
+
+#: settings.py:47
+msgid "Enable statistics"
+msgstr "تمكين الإحصائيات"
+
+#: settings.py:49
+msgid "Delete all statistics"
+msgstr "حذف جميع الإحصائيات"
+
+#: settings.py:51
+msgid "Language"
+msgstr "اللغة"
+
+#: settings.py:52
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: settings.py:66
+msgid "Enabled statistics!"
+msgstr "تم تفعيل الاحصائات!"
+
+#: settings.py:72
+msgid "Select locale"
+msgstr "حدد اللغة"
+
+#: settings.py:82
+msgid "Deleted and disabled statistics!"
+msgstr "تم حذف و الغاء تفعيل الاخصائيات!"
+
+#: settings.py:95
+msgid "Set locale!"
+msgstr "تم تعيين اللغة!"
+
+#: simple_commands.py:31
+msgid ""
+"Follow these steps:\n"
+"\n"
+"1. Add this bot to a group\n"
+"2. In the group, start a new game with /new or join an already running game "
+"with /join\n"
+"3. After at least two players have joined, start the game with /start\n"
+"4. Type <code>@unobot</code> into your chat box and hit <b>space</b>, or "
+"click the <code>via @unobot</code> text next to messages. You will see your "
+"cards (some greyed out), any extra options like drawing, and a <b>?</b> to "
+"see the current game state. The <b>greyed out cards</b> are those you <b>can "
+"not play</b> at the moment. Tap an option to execute the selected action.\n"
+"Players can join the game at any time. To leave a game, use /leave. If a "
+"player takes more than 90 seconds to play, you can use /skip to skip that "
+"player. Use /notify_me to receive a private message when a new game is "
+"started.\n"
+"\n"
+"<b>Language</b> and other settings: /settings\n"
+"Other commands (only game creator):\n"
+"/close - Close lobby\n"
+"/open - Open lobby\n"
+"/kill - Terminate the game\n"
+"/kick - Select a player to kick by replying to him or her\n"
+"/enable_translations - Translate relevant texts into all languages spoken in "
+"a game\n"
+"/disable_translations - Use English for those texts\n"
+"\n"
+"<b>Experimental:</b> Play in multiple groups at the same time. Press the "
+"<code>Current game: ...</code> button and select the group you want to play "
+"a card in.\n"
+"If you enjoy this bot, <a href=\"https://telegram.me/storebot?"
+"start=mau_mau_bot\">rate me</a>, join the <a href=\"https://telegram.me/"
+"unobotnews\">update channel</a> and buy an UNO card game."
+msgstr ""
+"Follow these steps:\n"
+"\n"
+"1. أضف هذا الروبوت إلى مجموعة.\n"
+"2. في المجموعة، ابدأ لعبة جديدة باستخدام /new أو انضم إلى لعبة قائمة "
+"باستخدام /join.\n"
+"3. بعد أن ينضم على الأقل لاعبان، ابدأ اللعبة باستخدام /start.\n"
+"4. اكتب <code>@unobot</code> في مربع الدردشة الخاص بك واضغط <b>مسافة</b>، أو "
+"انقر فوق النص <code>via @unobot</code> الموجود بجانب الرسائل. سترى بطاقاتك "
+"(بعضها مظللة باللون الرمادي)، أي خيارات إضافية مثل الرسم، وعلامة <b>؟</b> "
+"لعرض حالة اللعبة الحالية. البطاقات المظللة باللون الرمادي هي تلك التي لا "
+"يمكنك لعبها في الوقت الحالي. اضغط على الخيار المراد لتنفيذ الإجراء المحدد.\n"
+"يمكن للاعبين الانضمام إلى اللعبة في أي وقت. لمغادرة اللعبة، استخدم /leave. "
+"إذا استغرق أحد اللاعبين أكثر من 90 ثانية للعب، يمكنك استخدام /skip لتخطي تلك "
+"اللاعب.\n"
+"استخدم /notify_me لتلقي رسالة خاصة عندما يتم بدء لعبة جديدة.\n"
+"\n"
+"<b>اللغة</b> وإعدادات أخرى: /settings\n"
+"الأوامر الأخرى (فقط لخالق اللعبة):\n"
+"/close - إغلاق الردهة\n"
+"/open - فتح الردهة\n"
+"/kill - إنهاء اللعبة\n"
+"/kick - اختر اللاعب الذي ترغب في طرده بالرد عليه\n"
+"/enable_translations - ترجمة النصوص ذات الصلة إلى جميع اللغات المستخدمة في "
+"اللعبة\n"
+"/disable_translations - استخدام اللغة الإنجليزية لهذه النصوص\n"
+"\n"
+"<b>تجريبي:</b> اللعب في مجموعات متعددة في نفس الوقت. اضغط على زر "
+"<code>Current game: ...</code> وحدد المجموعة التي ترغب في لعب بطاقة فيها.\n"
+"إذا استمتعت بهذا الروبوت، <a href=\"https://telegram.me/storebot?"
+"start=mau_mau_bot\">قيمني</a>، انضم إلى <a href=\"https://telegram.me/"
+"unobotnews\">قناة التحديثات</a>، واشترِ لعبة بطاقات UNO."
+
+#: simple_commands.py:73
+msgid ""
+"This UNO bot has three game modes: Classic, Sanic and Wild.\n"
+"\n"
+" 🎻 The Classic mode uses the conventional UNO deck and there is no auto "
+"skip.\n"
+" 🚀 The Sanic mode uses the conventional UNO deck and the bot automatically "
+"skips a player if he/she takes too long to play its turn\n"
+" 🐉 The Wild mode uses a deck with more special cards, less number variety "
+"and no auto skip.\n"
+"\n"
+"To change the game mode, the GAME CREATOR has to type the bot nickname and a "
+"space, just like when playing a card, and all gamemode options should appear."
+msgstr ""
+"هذا الروبوت UNO لديه ثلاثة أوضاع لعب: كلاسيك، سانيك، ووايلد.\n"
+"\n"
+"🎻 الوضع الكلاسيكي يستخدم الدورة التقليدية للعبة UNO ولا يوجد تخطي تلقائي.\n"
+"🚀 الوضع السريع يستخدم الدورة التقليدية للعبة UNO والروبوت يقوم بتخطي اللاعب "
+"تلقائيًا إذا استغرق وقتًا طويلاً في لعب دوره.\n"
+"🐉 الوضع البري يستخدم دورة ببطاقات خاصة أكثر، وأقل تنوعًا في الأرقام، ولا "
+"يوجد تخطي تلقائي.\n"
+"\n"
+"لتغيير وضع اللعب، يجب على خالق اللعبة كتابة اسم الروبوت ومسافة، تمامًا كما هو "
+"الحال عند لعب بطاقة، وستظهر جميع خيارات أوضاع اللعب."
+
+#: simple_commands.py:85
+msgid ""
+"This bot is Free Software and licensed under the AGPL. The code is available "
+"here: \n"
+"https://github.com/jh0ker/mau_mau_bot"
+msgstr ""
+"This bot is Free Software and licensed under the AGPL. The code is available "
+"here: \n"
+"https://github.com/jh0ker/mau_mau_bot"
+
+#: simple_commands.py:88
+msgid ""
+"Attributions:\n"
+"Draw icon by <a href=\"http://www.faithtoken.com/\">Faithtoken</a>\n"
+"Pass icon by <a href=\"http://delapouite.com/\">Delapouite</a>\n"
+"Originals available on http://game-icons.net\n"
+"Icons edited by ɳick"
+msgstr ""
+"Attributions:\n"
+"Draw icon by <a href=\"http://www.faithtoken.com/\">Faithtoken</a>\n"
+"Pass icon by <a href=\"http://delapouite.com/\">Delapouite</a>\n"
+"Originals available on http://game-icons.net\n"
+"Icons edited by ɳick"
+
+#: simple_commands.py:105
+msgid "All news here: https://telegram.me/unobotnews"
+msgstr ""
+"كل الأخبار هنا: [https://telegram.me/unobotnews](https://telegram.me/"
+"unobotnews)"
+
+#: simple_commands.py:115
+msgid ""
+"You did not enable statistics. Use /settings in a private chat with the bot "
+"to enable them."
+msgstr ""
+"لم تقم بتمكين الإحصائيات. استخدم /settings في محادثة خاصة مع البوت لتمكينها."
+
+#: simple_commands.py:122
+#, python-brace-format
+msgid "{number} game played"
+msgid_plural "{number} games played"
+msgstr[0] "لعبت {number} لعبة"
+msgstr[1] "لعبت لعبة واحدة"
+msgstr[2] "لعبت {number} لعبة"
+msgstr[3] "لعبت {number} العاب"
+msgstr[4] "لعبت {number} لعبة"
+msgstr[5] "لعبت {number} لعبة"
+
+#: simple_commands.py:129
+#, python-brace-format
+msgid "{number} first place ({percent}%)"
+msgid_plural "{number} first places ({percent}%)"
+msgstr[0] "{number} المركز الأول ({percent}%)"
+msgstr[1] "{number} المركز الأول ({percent}%)"
+msgstr[2] "{number} المركز الأول ({percent}%)"
+msgstr[3] "{number} المركز الأول ({percent}%)"
+msgstr[4] "{number} المركز الأول ({percent}%)"
+msgstr[5] "{number} المركز الأول ({percent}%)"
+
+#: simple_commands.py:136
+#, python-brace-format
+msgid "{number} card played"
+msgid_plural "{number} cards played"
+msgstr[0] "لعبت {number} بطاقة"
+msgstr[1] "لعبت بطاقة واحدة"
+msgstr[2] "لعبت بطاقتان"
+msgstr[3] "لعبت {number} بطاقات"
+msgstr[4] "لعبت {number} بطاقة"
+msgstr[5] "لعبت {number} بطاقة"
+
+#: utils.py:55 utils.py:67
+#, python-brace-format
+msgid "{emoji} Red"
+msgstr "{emoji} احمر"
+
+#: utils.py:57 utils.py:70
+#, python-brace-format
+msgid "{emoji} Blue"
+msgstr "{emoji} ازرق"
+
+#: utils.py:59 utils.py:73
+#, python-brace-format
+msgid "{emoji} Green"
+msgstr "{emoji} اخضر"
+
+#: utils.py:61 utils.py:76
+#, python-brace-format
+msgid "{emoji} Yellow"
+msgstr "{emoji} اصفر"

@@ -28,6 +28,7 @@ def flag(code):
 
 
 available_locales = {
+    "ar_IQ": flag("IQ") + " العربية",
     "en_US": flag("US") + " English (US)",
     "de_DE": flag("DE") + " Deutsch (DE)",
     "es_ES": flag("ES") + " Español (ES)",
